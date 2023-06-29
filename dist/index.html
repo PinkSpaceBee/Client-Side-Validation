@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Form Validation</title>
-  <script defer src="main.bundle.js"></script><script defer src="main.bundle.js"></script></head>
-  <body>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, height=device-height, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.css" />
+		<title>Form Validation</title>
+		<script defer src="main.bundle.js"></script>
+	<script defer src="main.bundle.js"></script></head>
+	<body>
+		<form action="#">
+			<div class="input">
+				<label for="e-mail">EMAIL</label>
+				<input type="email" id="email" name="email" required />
+			</div>
+			<div class="input">
+				<label for="password">PASSWORD</label>
+				<input type="password" id="password" name="password" required />
+			</div>
+			<div class="input">
+				<label for="confirm-password">CONFIRM PASSWORD</label>
+				<input
+					type="password"
+					id="confirm-password"
+					name="confirm-password"
+					required />
+			</div>
+			<div class="button">
+				<button>NEXT</button>
+			</div>
+		</form>
+	</body>
 </html>
